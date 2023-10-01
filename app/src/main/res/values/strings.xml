@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MLBBDialog</string>
+    <string name="title">Quit</string>
+    <string name="subtitle">Are you sure you want to exit the game?</string>
+    <string name="positive">Okay</string>
+    <string name="negative">Cancel</string>
+</resources>

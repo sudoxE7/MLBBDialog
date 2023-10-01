@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:background="@drawable/mlbb_dialog_new_background"
+    android:stateListAnimator="@null" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:textAlignment="center"
+        android:textColor="#c6d3e4"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:alpha="0.1"
+        android:background="#bdbdbd"
+        android:scaleY="0.5" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider"
+        android:gravity="center_horizontal"
+        android:paddingBottom="32dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="32dp"
+        android:textAlignment="center"
+        android:textColor="#a4b8dd"
+        android:textSize="11sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subtitle"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp" >
+
+        <TextView
+            android:id="@+id/dialogButtonNO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mlbb_dialog_new_negative"
+            android:gravity="center_horizontal"
+            android:maxWidth="104dp"
+            android:minWidth="104dp"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:stateListAnimator="@null"
+            android:textAlignment="center"
+            android:textColor="#a4b8dd"
+            android:textSize="11sp" />
+
+        <View
+            android:id="@+id/separator"
+            android:layout_width="24dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/dialogButtonOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mlbb_dialog_new_positive"
+            android:gravity="center_horizontal"
+            android:maxWidth="104dp"
+            android:minWidth="104dp"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:stateListAnimator="@null"
+            android:textAlignment="center"
+            android:textColor="#c6d3e4"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+</RelativeLayout>
