@@ -72,3 +72,6 @@ To change the style of MLBB Dialog
 Style.OLD
 Style.NEW
 ```
+
+#
+// Credit to Exodus
