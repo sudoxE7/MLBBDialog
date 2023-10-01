@@ -11,11 +11,11 @@ import android.widget.TextView;
 import com.exodus.MLBBDialog.options.Style;
 
 /**
- * Created by Andrei De Ocampo
- * http://github.com/sudoxE7
- * ytexodus7@gmail.com
- * on 10/01/23.
- */
+* Created by Andrei De Ocampo
+* https://github.com/sudoxE7
+* ytexodus7@gmail.com
+* on 10/01/23.
+*/
 
 public class MLBBDialog {
 	private Dialog dialog;

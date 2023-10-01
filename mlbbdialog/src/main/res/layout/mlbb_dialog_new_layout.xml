@@ -87,7 +87,7 @@
             android:stateListAnimator="@null"
             android:textAlignment="center"
             android:textColor="#c6d3e4"
-            android:textSize="11sp" />
+            android:textSize="12sp" />
     </LinearLayout>
 
 </RelativeLayout>

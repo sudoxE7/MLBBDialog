@@ -6,7 +6,7 @@ import com.exodus.MLBBDialog.options.Style;
 
 /**
 * Created by Andrei De Ocampo
-* http://github.com/sudoxE7
+* https://github.com/sudoxE7
 * ytexodus7@gmail.com
 * on 10/01/23.
 */
