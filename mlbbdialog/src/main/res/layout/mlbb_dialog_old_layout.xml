@@ -75,7 +75,7 @@
             android:stateListAnimator="@null"
             android:textAlignment="center"
             android:textColor="#ffffff"
-            android:textSize="12sp" />
+            android:textSize="11sp" />
     </LinearLayout>
 
 </RelativeLayout>

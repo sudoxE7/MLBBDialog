@@ -5,7 +5,6 @@ plugins {
 android {
     compileSdkVersion 33
 	namespace "com.exodus.MLBBDialog"
-	namespace "com.exodus.MLBBDialog.options"
 
     defaultConfig {
         minSdkVersion 21
