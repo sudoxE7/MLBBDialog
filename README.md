@@ -38,6 +38,7 @@ new MLBBDialogBuilder(MainActivity.this, Style.NEW)
             @Override
             public void onClick(MLBBDialog mLBBDialog) {
                 finishAffinity();
+                mLBBDialog.dismiss();
             }
         })
         .setNegativeListener(getString(R.string.negative), new MLBBDialogClickListener() {
