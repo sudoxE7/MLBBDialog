@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 						@Override
 						public void onClick(MLBBDialog mLBBDialog) {
 							finishAffinity();
+							mLBBDialog.dismiss();
 						}
 					})
 					.setNegativeListener(getString(R.string.negative), new MLBBDialogClickListener() {
