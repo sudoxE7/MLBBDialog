@@ -25,7 +25,7 @@ public class MLBBDialog {
 	private MLBBDialogClickListener positiveListener;
 	private MLBBDialogClickListener negativeListener;
 	private boolean negativeExist;
-	private static final String LOG_ERROR = "iOSDialog_ERROR";
+	private static final String LOG_ERROR = "MLBBDialog_ERROR";
 
 	public MLBBDialog(Context context, Style style, String title, String subtitle, Typeface typeFace,
 			boolean cancelable) {
